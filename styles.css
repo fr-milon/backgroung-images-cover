@@ -1,0 +1,90 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background-image: url("img/woodland-road-falling-leaf-natural-38537.jpeg");
+    background-position: cover;
+    background-size: center;
+}
+.menu {
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+  
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    float: right;
+    padding: 10px;
+    background-color: rgb(204, 65, 204);
+    border-radius: 5px;
+}
+.menu a:nth-child(1){
+    margin-right: 30px;
+}
+
+.menu a:hover {
+    background-color: blueviolet;
+    border: 1px solid white;
+    transition: 0.6s ease-in-out;
+}
+
+.main {
+    margin: 100px auto 0;
+    width: 80%;
+    height: auto;
+    border: 30px solid teal;
+   
+}
+.content {
+    height: 300px;
+    width: 100%;
+    background-color: thistle;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s ease;
+}
+.content h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.menubar {
+    height: 5px;
+    width: 100px;
+    background-color: red;
+   
+ 
+}
+.menubar::before {
+        content: "";
+        height: 5px;
+        width: 90px;
+        background-color:green;
+        position: absolute;
+}
+  
+.content:hover {
+        height: 400px;
+        background-color: transparent;
+        transition: 0.3s ease;
+        color: white;
+}
+
+.post {
+    margin: 10px 20px 10px ;
+    text-align: center;
+}
+.post p {
+    padding: 2px;
+
+}
+.post p:hover {
+    text-shadow: 2px 2px 10px black;
+}
